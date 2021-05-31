@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<title>Marvel SPA</title>
+
+</head>
+<body>
+
+	<!-- Navbar com o logo da Marvel-->
+
+	<header>
+		<div class="container" style="text-align: center;">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand"><img src="components/img/marvel.svg"></a>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Vídeos de abertura da Marvel-->
+
+	<section class="section-1">
+		<div class="row">
+			<video src="components/video/abertura.mp4"autoplay="autoplay" muted="muted" loop="loop"></video>
+		</div>
+	</section>
+
+	<!-- Escolhendo um personagem 1(Apresentação) -->
+
+	<section class="section-2 mt-5 container">
+      <h1 class="text-center">Escolha um personagem</h1>
+      <hr>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-body text-center card-custom">
+            <i class="material-icons">group</i>
+
+            <h4>
+               Abaixo você escolhe um personagem Marvel
+            </h4>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-body text-center card-custom">
+            <i class="material-icons">store</i>
+
+            <h4>
+               Ao clicar, você será redirecionado para o site da Marvel
+            </h4>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-body text-center card-custom">
+            <i class="material-icons">campaign</i>
+
+            <h4>
+               Você receberá mais informações sobre o personagem selecionado!
+            </h4>
+
+          </div>
+        </div>
+      </div>
+      <br>
+    </section>
+
+    <!-- Escolhendo um personagem 1(Personagens) -->
+
+	<section class="section-3 mt-5 container text-center">
+		<div class="container">
+			<div class="row" id="marvel-row">
+				<!-- preenchido pelo JavaScript -->
+			</div>
+		</div>
+	<br><br><br>
+	</section>
+
+	<!-- Rodapé -->
+
+	<footer class="bg-dark text-center text-white">
+  		<div class="container p-4 pb-0">
+    		<section class="mb-4">
+    			<p>Entre em Contato: </p>
+    			
+    			<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/jacques.g.mascarenhas" role="button">
+		      	<i class="material-icons">facebook</i>
+		      	</a>
+		      	
+		      	<a class="btn btn-outline-light btn-floating m-1" href="mailto:jacquesgaldino@gmail.com?subject=Ola%20você" role="button">
+		      	<i class="material-icons">mail</i>
+		      	</a>
+
+		      	<a class="btn btn-outline-light btn-floating m-1" href="http://api.whatsapp.com/send?phone=5585999405876" role="button">
+		      	<i class="material-icons">phone</i>
+		      	</a>
+
+    		</section>
+   
+  		</div>
+  		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+   		 © 2021 Copyright: Jacques Galdino Mascarenhas
+  		</div>
+ 
+	</footer>
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

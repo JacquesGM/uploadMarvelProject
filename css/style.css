@@ -1,0 +1,43 @@
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+section .row {
+  height: 100%;
+
+}
+
+
+img {
+	width: 10%;
+
+}
+
+img.img-thumbnail:hover {
+  transform: scale(0.8);
+  transition: 1s;
+  background-color: #CCC;
+}
+
+.card-custom i {
+  font-size: 7rem;
+}
+
+.card-custom {
+  color: red;
+  background: #FFF;
+}
+
+.card-custom:hover {
+  background: red;
+  color: #FFF;
+}
+
+img.img-thumbnail{
+	width: 70%;
+	height: 70%
+}
